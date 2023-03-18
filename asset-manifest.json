@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SimpleTwitter/static/css/main.073c9b0a.css",
+    "main.js": "/SimpleTwitter/static/js/main.a729e4fd.js",
+    "static/js/787.cd73e525.chunk.js": "/SimpleTwitter/static/js/787.cd73e525.chunk.js",
+    "static/media/logo.svg": "/SimpleTwitter/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/SimpleTwitter/index.html",
+    "main.073c9b0a.css.map": "/SimpleTwitter/static/css/main.073c9b0a.css.map",
+    "main.a729e4fd.js.map": "/SimpleTwitter/static/js/main.a729e4fd.js.map",
+    "787.cd73e525.chunk.js.map": "/SimpleTwitter/static/js/787.cd73e525.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a729e4fd.js"
+  ]
+}
