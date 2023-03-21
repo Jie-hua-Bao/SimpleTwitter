@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 //Page
 import UserLoginPage from "./Pages/UserLoginPage";
 import RegisterPage from "./Pages/RegisterPage";
+import AdminLoginPage from "./Pages/AdminLoginPage";
 const basename = process.env.PUBLIC_URL;
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/">
             <Route path="login" element={<UserLoginPage />}></Route>
+            <Route path="admin" element={<AdminLoginPage />}></Route>
             <Route path="register" element={<RegisterPage />}></Route>
           </Route>
         </Routes>
