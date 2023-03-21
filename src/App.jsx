@@ -7,7 +7,7 @@ import RegisterPage from "./Pages/RegisterPage";
 const basename = process.env.PUBLIC_URL;
 function App() {
   return (
-    <div className={styles["App"]}>
+    <div className={styles.App}>
       <BrowserRouter basename={basename}>
         <Routes>
           <Route path="/">
