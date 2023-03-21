@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SimpleTwitter/static/css/main.303c36de.css",
-    "main.js": "/SimpleTwitter/static/js/main.a5ce8d11.js",
+    "main.css": "/SimpleTwitter/static/css/main.152968a9.css",
+    "main.js": "/SimpleTwitter/static/js/main.3b6724f0.js",
     "static/js/787.cd73e525.chunk.js": "/SimpleTwitter/static/js/787.cd73e525.chunk.js",
     "static/media/AcLogo.svg": "/SimpleTwitter/static/media/AcLogo.2f9d6616648badcc85a1c10004a4f7fc.svg",
     "index.html": "/SimpleTwitter/index.html",
-    "main.303c36de.css.map": "/SimpleTwitter/static/css/main.303c36de.css.map",
-    "main.a5ce8d11.js.map": "/SimpleTwitter/static/js/main.a5ce8d11.js.map",
+    "main.152968a9.css.map": "/SimpleTwitter/static/css/main.152968a9.css.map",
+    "main.3b6724f0.js.map": "/SimpleTwitter/static/js/main.3b6724f0.js.map",
     "787.cd73e525.chunk.js.map": "/SimpleTwitter/static/js/787.cd73e525.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.303c36de.css",
-    "static/js/main.a5ce8d11.js"
+    "static/css/main.152968a9.css",
+    "static/js/main.3b6724f0.js"
   ]
 }
