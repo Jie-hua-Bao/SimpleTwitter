@@ -34,9 +34,9 @@ function UserTweetBox(props) {
             <p className={styles["reply-number"]}>{2}</p>
           </div>
           <div className={styles["tweet-social-group"]}>
-            <div className={styles["like-btn"]}>
+            {/* <div className={styles["like-btn"]}>
               <LikeIconButton />
-            </div>
+            </div> */}
             <div className={styles["like-btn"]}>
               <LikeFullIconButton />
             </div>
