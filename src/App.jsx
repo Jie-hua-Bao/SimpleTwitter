@@ -8,7 +8,7 @@ import AdminLoginPage from "./Pages/AdminLoginPage";
 import SettingPage from "./Pages/SettingPage";
 import LayoutUser from "./Components/LayoutUser";
 import TweetInput from "./Components/TweetInput";
-
+import HomePage from "./Pages/HomePage";
 
 const basename = process.env.PUBLIC_URL;
 function App() {
@@ -24,9 +24,9 @@ function App() {
             <Route path="register" element={<RegisterPage />}></Route>
             <Route path="setting" element={<SettingPage />}></Route>
             <Route path="tweet/:id" element={<LayoutUser />}>
-              <Route index element={<UserLoginPage />}></Route>
+              <Route index element={<HomePage />}></Route>
             </Route>
-            <Route path="test" element={<TweetInput />}></Route>
+            <Route path="test" element={<HomePage />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
