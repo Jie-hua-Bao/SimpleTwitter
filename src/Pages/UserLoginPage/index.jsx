@@ -8,7 +8,7 @@ import Button from "../../Components/Button";
 import AuthInput from "../../Components/AuthInput";
 
 function UserLoginPage() {
-  //useState狀態
+  //useState狀態，思考這個頁面需要哪些state 輸入的state跟submit的state
   const [account, setAccount] = useState("");
   const [password, setPassword] = useState("");
   // 事件處理
