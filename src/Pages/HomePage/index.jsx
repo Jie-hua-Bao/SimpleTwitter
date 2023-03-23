@@ -3,6 +3,7 @@ import TweetInput from "../../Components/TweetInput";
 import UserTweetList from "../../Components/UserTweetList";
 function HomePage() {
   return (
+
     <div className={styles["container"]}>
       <div className={styles["page-title"]}>首頁</div>
       <div className={styles["tweet-input"]}>
@@ -13,6 +14,7 @@ function HomePage() {
       </div>
     </div>
   );
+
 }
 
 export default HomePage;

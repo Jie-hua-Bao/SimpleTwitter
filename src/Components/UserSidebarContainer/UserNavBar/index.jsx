@@ -63,11 +63,7 @@ function UserNavBar() {
       <NavBarItem>
         <NavLink
           to={"/setting"}
-          className={({ isActive }) =>
-            [
-              `${styles["navbar-link"]}`,
-              isActive ? `${styles["router-link-active"]}` : ``,
-            ].join(" ")
+          className={styles["navbar-link"]
           }
           end
         >
