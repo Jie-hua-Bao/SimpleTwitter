@@ -38,7 +38,7 @@ function UserLoginPage() {
         />
       </div>
       <div className={styles["auth-button"]} onClick={handleClick}>
-        <Link to="/tweet/:id" className={styles["auth-link"]}>
+        <Link to="/home" className={styles["auth-link"]}>
           <Button styleName="lg-bg-logo">登入</Button>
         </Link>
       </div>
