@@ -22,7 +22,7 @@ function UserTweetBox(props) {
         <UserInfo />
         <div className={styles["tweet-content"]}>
           <Link to={`/tweet/${2}`} className={styles["tweet-content-link"]}>
-            {}
+            {'Gooooooooooooooooooooo'}
           </Link>
         </div>
         <div className={styles["tweet-social-list"]}>
