@@ -6,7 +6,7 @@ function UserInfo() {
   return (
     <div className={styles["container"]}>
       <p className={styles["user-info-name"]}>
-        Apple
+        Bao
       </p>
       <p className={styles["user-info-account"]}>
         <Link to={`/user/${1}`} className={styles["account-link"]}>

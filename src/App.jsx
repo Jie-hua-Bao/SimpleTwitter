@@ -7,7 +7,7 @@ import RegisterPage from "./Pages/RegisterPage";
 import AdminLoginPage from "./Pages/AdminLoginPage";
 import SettingPage from "./Pages/SettingPage";
 import LayoutUser from "./Components/LayoutUser";
-import TweetInput from "./Components/TweetInput";
+
 import HomePage from "./Pages/HomePage";
 
 const basename = process.env.PUBLIC_URL;

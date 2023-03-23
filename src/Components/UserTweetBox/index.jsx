@@ -5,7 +5,6 @@ import UserInfo from "./UserInfo";
 
 import LikeFullIconButton from "../LikeFullIconButton";
 import ReplyIconButton from "../ReplyIconButton";
-import LikeIconButton from "../LikeIconButton";
 
 function UserTweetBox(props) {
   return (
@@ -23,7 +22,7 @@ function UserTweetBox(props) {
         <UserInfo />
         <div className={styles["tweet-content"]}>
           <Link to={`/tweet/${2}`} className={styles["tweet-content-link"]}>
-            {2}
+            {}
           </Link>
         </div>
         <div className={styles["tweet-social-list"]}>

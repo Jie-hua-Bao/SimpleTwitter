@@ -33,7 +33,7 @@ function UserNavBar() {
           <HouseActive className={styles["navbar-link__logo-active"]} />
         </NavLink>
         <NavLink
-          to={"/home"}
+          to={"/tweet/:id"}
           className={({ isActive }) =>
             [
               `${styles["navbar-link"]}`,
@@ -61,12 +61,7 @@ function UserNavBar() {
         </NavLink>
       </NavBarItem>
       <NavBarItem>
-        <NavLink
-          to={"/setting"}
-          className={styles["navbar-link"]
-          }
-          end
-        >
+        <NavLink to={"/setting"} className={styles["navbar-link"]} end>
           <Gear className={styles["navbar-link__logo"]} />
           <GearActive className={styles["navbar-link__logo-active"]} />
         </NavLink>
